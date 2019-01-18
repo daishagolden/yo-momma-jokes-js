@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+}
+
+.logo img{
+    border-radius: 6px;
+    margin-left: 620px;
+}
+
+p {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 38px;
+}
+
+input {
+    margin-left: 730px;
+    margin-top: 50px;
+}
+
+.gif-1 img{
+    width: 300px;
+    height: 160px;
+}
+
+.gif-2 img{
+    width: 300px;
+    height: 160px;
+    margin-left: 245px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yo Momma Jokes</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/yomommajokes.css">
+</head>
+<body onload="generateHero();">
+    <div class="logo">
+        <img src="img/yomomma.jpg">
+    </div>
+    
+    <p id="output"></p>
+    <div class="button">
+        <form action="#" onsubmit="generateHero()">
+            <input type="submit">
+        </form>
+    </div>
+        <script>
+            function generateHero() {
+                var jokes = ['glasses are SOOOO thick, she can solve mysteries faster than Velma on Scooby Doo', 'black, the government moved Halloween to her birthday', 'fat ,Fat Albert says Hey Hey Hey,get away', 'SOOOOO black, she got a PHD in Hide-N-Seek', 'teeth SOOOO ugly, they be throwing up gang signs in each direction','SOOOO bald, I could polish her head and take her bowling'];
+            
+                var output = document.getElementById('output');
+                output.textContent = jokes[random()];
+                
+            }
+            function random() {
+                return Math.round(Math.random() * 5);
+            }
+        </script>
+    <div class="gif-1">
+        <div class="container">
+            <div class="row">
+                <div class="gif-1 col-sm-6">
+                    <img src="https://media1.tenor.com/images/83a67f1432e5c68321aff5fa3bda0d33/tenor.gif?itemid=6012742">
+                </div>
+                <div class="gif-2 col-sm-6">
+                    <img src="https://gifimage.net/wp-content/uploads/2018/06/the-joke-your-head-gif.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <script src='js/yomommajokes.js'></script>
+</body>
+</html>
